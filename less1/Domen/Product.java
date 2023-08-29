@@ -1,4 +1,4 @@
-package Domen;
+package OOP.less1.Domen;
 
 public class Product {
     private String name;

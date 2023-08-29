@@ -5,11 +5,11 @@ import java.util.List;
 import Domen.Product;
 
 public class VendingMachine {
-    private Services.Holder holder;
-    private Services.CoinDispenser dispenser;
+    private Holder holder;
+    private CoinDispenser dispenser;
     private List<Product> productList;
 
-    public VendingMachine(Services.Holder holder, Services.CoinDispenser dispenser, List<Product> productList) {
+    public VendingMachine(Holder holder, CoinDispenser dispenser, List<Product> productList) {
         this.holder = holder;
         this.dispenser = dispenser;
         this.productList = productList;
