@@ -1,9 +1,11 @@
 package OOP.VendingMachine;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import OOP.VendingMachine.Domen.Bottle;
+import OOP.VendingMachine.Domen.HotDrink;
 import OOP.VendingMachine.Domen.Product;
 import OOP.VendingMachine.Services.Holder;
 import OOP.VendingMachine.Services.VendingMachine;
@@ -25,6 +27,16 @@ public class App {
         CoinDispenser disp = new CoinDispenser(120);
 
         VendingMachine venMach1 = new VendingMachine(hold1, disp, assort);
+
+        HotDrink coffee = new HotDrink("Coffee", 120, 50);
+        HotDrink tea = new HotDrink("Tea", 80, 45);
+        HotDrink cocoa = new HotDrink("Cocoa",100, 35);
+
+        //venMach1.getProductList().addAll(List.of(coffee, tea, cocoa));
+
+        venMach1.getProductList().add(coffee);
+        venMach1.getProductList().add(tea);
+        venMach1.getProductList().add(cocoa);
 
         for(Product prod: venMach1.getProductList())
         {

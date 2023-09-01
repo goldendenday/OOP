@@ -25,7 +25,7 @@ public class MainFrame extends JFrame {
         tfFirstName.setFont(mainFont);
         
         
-        JLabel lbLastName = new JLabel("First Name");
+        JLabel lbLastName = new JLabel("Last Name");
         lbLastName.setFont(mainFont);
 
        
@@ -57,7 +57,7 @@ public class MainFrame extends JFrame {
                 
                 
                 String firstName = tfFirstName.getText();
-                String lastName = tfFirstName.getText();
+                String lastName = tfLastName.getText();
                 lbWelcome.setText("Hello " + firstName + " " + lastName);
                 
                 
@@ -74,7 +74,7 @@ public class MainFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                
                 tfFirstName.setText("");
-                tfFirstName.setText("");
+                tfLastName.setText("");
                 lbWelcome.setText("");
                 
             }

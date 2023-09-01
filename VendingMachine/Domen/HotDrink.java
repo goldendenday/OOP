@@ -9,13 +9,25 @@ package OOP.VendingMachine.Domen;
 Задача со *: Разработать интерфейс для VendingMachines на JFrame. В интерфейсе отобразить добавленные в main продукты(ListBox).
 Поле ввода наличности и кнопку "купить товар"! Все необходимые дополнительные методы класса VendingMachines и Product добавить самостоятельно.
 
-Формат сдачи:
-Ссылка на гитхаб проект
-Подписать фамилию и номер группы
-
-ДЗ можно сдавать на языках: python, java, c#, dart, golang
  */
-public class HotDrinks extends Product {
-    public int temperature = 40;
+public class HotDrink extends Product {
+    private int temperature;
+
+    public HotDrink(String name, int price, int temperature) {
+        super(name, price);
+        this.temperature = temperature;
+    }
+
+    public int getTemperature() {
+        return this.temperature;
+    }
+
+    public void setTemperature(int temperature) {
+        this.temperature = temperature;
+    }
+
+    public String toString() {
+        return "Product: price=" + super.getPrice() + "; name=" + super.getName() + "; temperature=" + this.temperature;
+    }
 
 }
