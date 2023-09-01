@@ -1,6 +1,6 @@
-package OOP.SuperMarketApp.src.Interfaces;
+package OOP.SuperMarketApp.Interfaces;
 
-import OOP.SuperMarketApp.src.Classes.Actor;
+import OOP.SuperMarketApp.Classes.Actor;
 
 public interface iActorBehaviour {
     public boolean isTakeOrder();

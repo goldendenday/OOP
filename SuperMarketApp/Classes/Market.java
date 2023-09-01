@@ -1,12 +1,12 @@
-package OOP.SuperMarketApp.src.Classes;
+package OOP.SuperMarketApp.Classes;
 
 import java.util.List;
 import java.util.ArrayList;
 
-import OOP.SuperMarketApp.src.Interfaces.iActorBehaviour;
+import OOP.SuperMarketApp.Interfaces.iActorBehaviour;
 
-import OOP.SuperMarketApp.src.Interfaces.iMarketBehaviour;
-import OOP.SuperMarketApp.src.Interfaces.iQueueBehaviour;
+import OOP.SuperMarketApp.Interfaces.iMarketBehaviour;
+import OOP.SuperMarketApp.Interfaces.iQueueBehaviour;
 
 public class Market implements iMarketBehaviour, iQueueBehaviour {
 

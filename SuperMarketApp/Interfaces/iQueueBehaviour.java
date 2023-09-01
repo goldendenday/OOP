@@ -1,4 +1,4 @@
-package OOP.SuperMarketApp.src.Interfaces;
+package OOP.SuperMarketApp.Interfaces;
 
 public interface iQueueBehaviour {
     void takeInQueue(iActorBehaviour actor);

@@ -1,4 +1,4 @@
-package OOP.VendingMachine.src.Domen;
+package OOP.VendingMachine.Domen;
 
 public class Bottle extends Product {
 

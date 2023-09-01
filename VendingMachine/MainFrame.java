@@ -1,4 +1,4 @@
-package OOP.VendingMachine.src;
+package OOP.VendingMachine;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

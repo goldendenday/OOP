@@ -1,10 +1,10 @@
-package OOP.SuperMarketApp.src;
+package OOP.SuperMarketApp;
 
-import OOP.SuperMarketApp.src.Classes.Market;
-import OOP.SuperMarketApp.src.Classes.OrdinaryClient;
-import OOP.SuperMarketApp.src.Classes.SpecialClient;
-import OOP.SuperMarketApp.src.Classes.TaxInspector;
-import OOP.SuperMarketApp.src.Interfaces.iActorBehaviour;
+import OOP.SuperMarketApp.Classes.Market;
+import OOP.SuperMarketApp.Classes.OrdinaryClient;
+import OOP.SuperMarketApp.Classes.SpecialClient;
+import OOP.SuperMarketApp.Classes.TaxInspector;
+import OOP.SuperMarketApp.Interfaces.iActorBehaviour;
 
 public class App {
     public static void main(String[] args) throws Exception {

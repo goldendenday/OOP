@@ -1,13 +1,13 @@
-package OOP.VendingMachine.src;
+package OOP.VendingMachine;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import OOP.VendingMachine.src.Domen.Bottle;
-import OOP.VendingMachine.src.Domen.Product;
-import OOP.VendingMachine.src.Services.Holder;
-import OOP.VendingMachine.src.Services.VendingMachine;
-import OOP.VendingMachine.src.Services.CoinDispenser;
+import OOP.VendingMachine.Domen.Bottle;
+import OOP.VendingMachine.Domen.Product;
+import OOP.VendingMachine.Services.Holder;
+import OOP.VendingMachine.Services.VendingMachine;
+import OOP.VendingMachine.Services.CoinDispenser;
 
 public class App {
     public static void main(String[] args) throws Exception {

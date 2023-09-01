@@ -1,9 +1,9 @@
-package OOP.VendingMachine.src.Services;
+package OOP.VendingMachine.Services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import OOP.VendingMachine.src.Domen.Place;
+import OOP.VendingMachine.Domen.Place;
 
 public class Holder {
  private List<Place> places;

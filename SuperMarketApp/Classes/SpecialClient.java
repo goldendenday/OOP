@@ -1,4 +1,4 @@
-package OOP.SuperMarketApp.src.Classes;
+package OOP.SuperMarketApp.Classes;
 
 public class SpecialClient extends Actor  {
 

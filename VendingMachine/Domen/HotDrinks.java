@@ -1,6 +1,4 @@
-package OOP.VendingMachine.src.Domen;
-
-import OOP.VendingMachine.src.Domen.Product;
+package OOP.VendingMachine.Domen;
 
 /*
 Урок 1. Принципы ООП: Инкапсуляция, наследование, полиморфизм
@@ -18,6 +16,6 @@ import OOP.VendingMachine.src.Domen.Product;
 ДЗ можно сдавать на языках: python, java, c#, dart, golang
  */
 public class HotDrinks extends Product {
-    int temperature = 40;
+    public int temperature = 40;
 
 }
