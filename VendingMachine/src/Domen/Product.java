@@ -1,4 +1,4 @@
-package OOP.less1.Domen;
+package OOP.VendingMachine.src.Domen;
 
 public class Product {
     private String name;
@@ -33,4 +33,10 @@ public class Product {
         this.price = price;
     }
 
+    @Override
+    public String toString()
+    {
+        return "Product: price="+ this.price+"; name="+this.name;
+    }
+    
 }

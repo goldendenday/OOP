@@ -1,6 +1,8 @@
-package OOP.less2.Classes;
+package OOP.SuperMarketApp.src.Classes;
 
-public abstract class Actor {
+import OOP.SuperMarketApp.src.Interfaces.iActorBehaviour;
+
+public abstract class Actor implements iActorBehaviour {
 
     protected String name;
     protected boolean isTakeOrder;
@@ -11,7 +13,6 @@ public abstract class Actor {
     }
 
     abstract public void setName(String name);
-
     abstract public String getName();
 
 }

@@ -1,12 +1,12 @@
-package OOP.less1.Services;
+package OOP.VendingMachine.src.Services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Domen.Place;
+import OOP.VendingMachine.src.Domen.Place;
 
 public class Holder {
-    private List<Place> places;
+ private List<Place> places;
 
     public Holder(int xSize, int ySize){
         places = new ArrayList<>(xSize*ySize);
@@ -19,8 +19,8 @@ public class Holder {
 
     public boolean release(int x, int y){
         return true;
-        // return places.stream().filter(place -> place.getCol() == x && place.getRow() == y)
-        //         .findFirst().get().setEmpty(true);
+       // return places.stream().filter(place -> place.getCol() == x && place.getRow() == y)
+       //         .findFirst().get().setEmpty(true);
     }
 
     public int getBalance() {

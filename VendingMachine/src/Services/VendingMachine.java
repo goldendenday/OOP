@@ -1,8 +1,8 @@
-package OOP.less1.Services;
+package OOP.VendingMachine.src.Services;
 
 import java.util.List;
 
-import Domen.Product;
+import OOP.VendingMachine.src.Domen.Product;
 
 public class VendingMachine {
     private Holder holder;
@@ -10,6 +10,9 @@ public class VendingMachine {
     private List<Product> productList;
 
     public VendingMachine(Holder holder, CoinDispenser dispenser, List<Product> productList) {
+
+
+        
         this.holder = holder;
         this.dispenser = dispenser;
         this.productList = productList;

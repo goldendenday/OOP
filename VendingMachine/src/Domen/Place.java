@@ -1,4 +1,4 @@
-package Domen;
+package OOP.VendingMachine.src.Domen;
 
 public class Place {
     private int row;

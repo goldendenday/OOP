@@ -1,19 +1,19 @@
-package OOP.less2.Classes;
+package OOP.SuperMarketApp.src.Classes;
 
 public class OrdinaryClient extends Actor {
 
-    // private boolean isTakenOrder;
-    // private boolean isMakeOrder;
+   // private boolean isTakenOrder;
+   // private boolean isMakeOrder;
 
     public OrdinaryClient(String name) {
         super(name);
     }
 
-    public boolean isTakenOrder() {
+    public boolean isTakeOrder() {
         return super.isTakeOrder;
     }
 
-    public void setTakenOrder(boolean takenOrder) {
+    public void setTakeOrder(boolean takenOrder) {
         super.isTakeOrder = takenOrder;
     }
 
@@ -25,17 +25,18 @@ public class OrdinaryClient extends Actor {
         super.isMakeOrder = makeOrder;
     }
 
-    public Actor getActor() {
+    public Actor getActor()
+    {
         return this;
     }
 
     @Override
     public String getName() {
-        return super.name;
+        return super.name;        
     }
 
     @Override
     public void setName(String name) {
-        super.name = name;
+       super.name = name;        
     }
 }
